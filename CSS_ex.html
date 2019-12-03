@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <title>CSS3 Selector Basic Page</title>
+    <style>
+    /*
+    h1{color: red;}
+    p{color: burlywood;}
+    body,p,h1,h2,h3,h4,h5,h6{margin: 0; padding: 0;}
+    */
+    #header{
+        width: 800px; margin: 0 auto;
+        background: red;
+    }
+    #wrap
+    {
+        width: 800px;
+        margin: 0 auto;
+        overflow:hidden;
+    }
+    #aside{
+        width: 200px; float: left;
+        background: blue
+    }
+    #content{
+        width: 200px; float: left;
+        background: green;
+    }
+     .select{color: red;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>Aside</h1>
+        </div>
+        <div id = "content">
+            <h1>content</h1>
+        </div>
+    </div>
+    <li class="select">Dynamic</li>
+    <li>Duo</li>
+    <li class="select">alone</li>
+    <li>alone</li>
+
+</body>
+</html>
